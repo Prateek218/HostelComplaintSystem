@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wuser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.prateek.hostelcomplaintsystem.WUserActivity"
+    android:background="#A74D4D">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/etemail"
+        android:hint="Email"
+        android:layout_below="@+id/etcont"
+        android:layout_alignRight="@+id/etcont"
+        android:layout_alignEnd="@+id/etcont"
+        android:layout_alignLeft="@+id/etcont"
+        android:layout_alignStart="@+id/etcont" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etgen"
+        android:hint="Gender"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/etrn"
+        android:layout_alignRight="@+id/etrn"
+        android:layout_alignEnd="@+id/etrn"
+        android:layout_alignLeft="@+id/etrn"
+        android:layout_alignStart="@+id/etrn" />
+
+    <TextView
+        android:text="HOSTEL COMPLAIN SYSTEM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#ff7aff24"
+        android:textSize="26dp"
+        android:layout_alignParentTop="true"
+        android:textEditPasteWindowLayout="@android:drawable/alert_dark_frame"
+        android:capitalize="characters"
+        android:fontFamily="sans-serif"
+        android:fontFeatureSettings="@string/hello_blank_fragment" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/etusr"
+        tools:layout_width="match_parent"
+        android:hint="Uname"
+        android:layout_below="@+id/tvWelcomeMsg"
+        android:layout_alignLeft="@+id/etage"
+        android:layout_alignStart="@+id/etage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/etage"
+        android:hint="Age"
+        android:layout_below="@+id/etusr"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/ethb"
+        android:layout_alignStart="@+id/ethb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/ethb"
+        android:hint="Hostel_block"
+        android:layout_below="@+id/etage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etrn"
+        android:hint="Room_no"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/ethb"
+        android:layout_alignLeft="@+id/ethb"
+        android:layout_alignStart="@+id/ethb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etcont"
+        android:hint="Contact"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/etgen"
+        android:layout_alignLeft="@+id/etgen"
+        android:layout_alignStart="@+id/etgen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/etusr"
+        android:layout_alignBottom="@+id/etusr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ethb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="Hostel Block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ethb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Room Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignBaseline="@+id/etrn"
+        android:layout_alignBottom="@+id/etrn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etgen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etcont"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeMsg"
+        android:enabled="false"
+        android:hint="Welcome Uname"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="About Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="16dp"
+        android:id="@+id/abtus"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Log Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:textColor="#0000FF"
+        android:textSize="16dp"
+        android:id="@+id/Logout" />
+
+    <TextView
+        android:text="All Complain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/complain"
+        android:textColor="#0000FF"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp" />
+
+</RelativeLayout>

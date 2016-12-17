@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hostel Complaint System</string>
+
+    <string name="select_rec">Select Recipient</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="warden_names">
+        <item>Warden1</item>
+        <item>Warden2</item>
+        <item>Warden3</item>
+
+    </string-array>
+
+
+    <string-array name="login_select">
+        <item>Student</item>
+        <item>Warden</item>
+    </string-array>
+</resources>
