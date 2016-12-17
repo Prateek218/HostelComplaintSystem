@@ -1,0 +1,21 @@
+<?php
+$con = mysqli_connect("localhost", "root", "root", "webappdb");
+	$name = "prateek";
+	$username = "15MCA1044";
+	$receipt = "Warden";
+	$hostel_block = "A";
+    $room_no = 424;
+    $subject = "Kuch nai";
+	$message = "Ram pass";
+	$mysql_qry="insert into complaint_details (C_From_Reg, C_From_Name, Hostel_Block, Room_No, To_warden_id, Subject, Message) values('$username', '$name', '$hostel_block', '$room_no', '$receipt', '$subject', '$message')";
+
+if($con->query($mysql_qry) === TRUE)
+{
+	echo "Insert Successful";
+}
+else
+{
+echo "Error:" . $mysql_qry . "<br>" . $con->error;
+}
+$con->close();
+?>
